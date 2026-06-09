@@ -6,7 +6,7 @@ from PySide6.QtWidgets import QWidget, QSizePolicy
 from PySide6.QtGui import QPainter, QColor, QPen, QFont
 from PySide6.QtCore import Qt, Signal, QRectF, QPointF
 
-from themes import get_colors
+from Sudoku.old.themes import get_colors
 
 
 class _CD:

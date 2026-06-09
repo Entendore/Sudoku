@@ -5,7 +5,7 @@ Premium Sudoku Application — Entry Point
 import sys
 from PySide6.QtWidgets import QApplication
 
-from window import SudokuWindow
+from Sudoku.old.window import SudokuWindow
 
 
 def main():
