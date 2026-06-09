@@ -10,10 +10,10 @@ from PySide6.QtWidgets import (
 from PySide6.QtGui import QFont, QColor, QKeySequence, QShortcut
 from PySide6.QtCore import QTimer, Qt
 
-from engine import SudokuEngine
-from num_button import NumButton
-from board import SudokuBoard
-from themes import (
+from Sudoku.old.engine import SudokuEngine
+from Sudoku.old.num_button import NumButton
+from Sudoku.old.board import SudokuBoard
+from Sudoku.old.themes import (
     get_base_stylesheet, get_button_stylesheet,
     get_hint_highlight_color, get_solve_place_colors, get_solve_remove_colors
 )
